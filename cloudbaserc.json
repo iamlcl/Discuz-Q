@@ -24,7 +24,7 @@
                         "CosRegion": "${TcbStaticStoreRegion}"
                     },
                     "volumeMounts": {
-                        "/var/lib/discuz": "discuz-cfs"
+                        "/var/www/discuz": "discuz-cfs"
                     }
                 }
             }
