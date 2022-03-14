@@ -24,8 +24,7 @@
                         "CosRegion": "${TcbStaticStoreRegion}"
                     },
                     "volumeMounts": {
-                        "/var/lib/discuz": "discuz-cfslcl1",
-                        "/var/www/discuz": "discuz-cfslcl2"
+                        "/var/www/discuz": "discuz-cfs"
                     }
                 }
             }
@@ -33,10 +32,7 @@
         "requirement": {
             "addons": [{
                 "type": "CFS",
-                "name": "discuz-cfslcl1"
-            },{
-                "type": "CFS",
-                "name": "discuz-cfslcl2"
+                "name": "discuz-cfs"
             }, {
                 "type": "CynosDB",
                 "name": "discuzq",
